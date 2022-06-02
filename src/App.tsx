@@ -17,6 +17,7 @@ export function App() {
   const handleCloseNewTransactionModal = () => {
     setIsNewTransactionModalOpen(false)
   }
+
   return (
     <>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
